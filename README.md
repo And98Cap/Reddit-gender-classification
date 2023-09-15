@@ -11,8 +11,7 @@
 
 ## Contents 
 
-  - Main project ( Reddit gender classification.ipynb)
-  - Data folder containing train (features and targets) and test( without targets) 
+  - Main project ( Reddit gender classification.ipynb) 
 
 ---
 
@@ -20,10 +19,10 @@
 
   The main file contains a pre-processing pipeline using dummy encoding for categorical features (subreddits)
   and a simple TF-IDF encoding process, while the date features are not really relevant so they are not considered
-  in the process. After downloading the files together, run the main also considering different parameters for the
+  in the process. After downloading the main file, run it while considering different parameters for the
   pipeline above described.
-  The test targets are not included because this project is intented to be a Kaggle competion, in which those data
-  are not visible, so the main script final output is only a file containing predictions.
+  The data for both train and test could be found at [https://www.kaggle.com/competitions/datamining2022/data] 
+  (https://www.kaggle.com/competitions/datamining2022/data), along with a brief explanation.
 
 ---
 
